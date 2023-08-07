@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #36393f;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.folder {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video:hover {
+    background-color: #e0e0e0;
+}
